@@ -3,8 +3,8 @@ Designed and implemented an automated data migration solution to transfer physic
 ## OBJECTIVE
 The main focus of the project is to automate the process of data migration from the physical sql storage to cloud sql storage in one click.
 ### TECH STACK
-Platform Used  : Google Cloud Platform
-Language used  : Python
-IDE used       : Jupyter notebooks(Anaconda)
+- Platform Used  : Google Cloud Platform
+- Language used  : Python
+- IDE used       : Jupyter notebooks(Anaconda)
 
 
