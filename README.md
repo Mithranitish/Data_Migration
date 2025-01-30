@@ -21,11 +21,11 @@ The main focus of the project is to automate the process of data migration from 
 - Create a bucket inside the cloud storage
 - Create a service account and download its key as json file
 - Give the following roles inside permissions for the created bucket:
-                   Storage Admin
-                   Storage Legacy Bucket Reader
-                   Storage Object Admin
-                   Storage Object Creator
-                   Storage Object Viewer
+                   - Storage Admin
+                   - Storage Legacy Bucket Reader
+                   - Storage Object Admin
+                   - Storage Object Creator
+                   - Storage Object Viewer
 
 
 
