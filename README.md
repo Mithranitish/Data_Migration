@@ -16,6 +16,18 @@ The main focus of the project is to automate the process of data migration from 
 - Connect the local sql server to ssdms
 - Create an experimental database with some tables
 - Using python 3 code to create a backup file for database and store it in destination folder
+### UPLOAD THE BACKUP FILE IN THE GCS BUCKET
+- Create an account in google cloud platform using debit or credit card
+- Create a bucket inside the cloud storage
+- Create a service account and download its key as json file
+- Give the following roles inside permissions for the created bucket:
+                   Storage Admin
+                   Storage Legacy Bucket Reader
+                   Storage Object Admin
+                   Storage Object Creator
+                   Storage Object Viewer
+
+
 
 
 
