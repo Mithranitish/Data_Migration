@@ -7,6 +7,13 @@ The main focus of the project is to automate the process of data migration from 
 - Platform Used  : Google Cloud Platform
 - Language used  : Python
 - IDE used       : Jupyter notebooks(Anaconda)
+### PACKAGES USED
+- OS
+- SUBPROCESS
+- GOOGLE API CLIENT
+- GOOGLE CLOUD STORAGE
+- OAUTH2
+
 ### STEPS TO BE FOLLOWED
 - Create a backup file from physical database
 - Upload the backup file into gcs bucket
