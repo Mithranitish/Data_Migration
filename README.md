@@ -27,6 +27,18 @@ The main focus of the project is to automate the process of data migration from 
                    - Storage Object Creator
                    - Storage Object Viewer
 
+### RESTORE THE BACKUP FILE FROM GCS TO CLOUD SQL SERVER 
+- Create a vpc network other than the default vpc network
+- Create a cloud sql instance 
+- While creating the cloud instance give the vpc credentials in the private ip
+- Connect the cloud sql to the ssms using public ip as server name and login credentials
+- Give the following roles inside permissions for the created service account:
+- - Cloud SQL Admin
+- Cloud SQL Client
+- Cloud SQL Editor
+- Owner
+- Storage Object Viewer
+- Restore the backup file from the gcs bucket using python code
 
 
 
